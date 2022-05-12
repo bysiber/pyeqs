@@ -161,7 +161,7 @@ if __name__ == "__main__":
     # if eqGen -> self.weightNum if it's "random", it will randomize the number of given variable arguments. like "x" , 3 times or 10 times
     # if weightNum -> second random argument -> if it's random it's length will be random between 0 and 6
     eqC = eqGen(["x","y"],"random","random") # -> how much input do you have ? for this -> there are two input -> 'x' and 'y'
-    eqNum = 5000 # how many equations will be generated
+    eqNum = 50000 # how many equations will be generated
     eqC.eqGenerator(eqNum) # generating function
     eqs = eqC.getEqs() # get all the equations
     #eqC.printInfos()
